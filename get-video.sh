@@ -37,7 +37,8 @@ fi
 
 for ((i=0; i<$nr_urls; i++))
 do
-    title=${flvtitle}_$i
+    idx=$(printf "%03d" "$i")
+    title=${flvtitle}_$idx
     url=${flvurls[$i]}
     suffix=${url##*.}
     echo "title: $title"
