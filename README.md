@@ -5,5 +5,12 @@ The scripts are:
   
     download the video embedded in a web page.
     
-    dependent on the following software:
+    depend on the following software:
+    * mencoder
+      
+* tomp3.sh:
+
+    transfrom audio/video file into mp3 format
+    
+    depend on the following software:
     * mencoder
