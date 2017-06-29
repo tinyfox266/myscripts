@@ -14,3 +14,7 @@ The scripts are:
     
     depend on the following software:
     * mencoder
+      
+* hpprint.sh
+
+    print files using HP printer without print driver.
